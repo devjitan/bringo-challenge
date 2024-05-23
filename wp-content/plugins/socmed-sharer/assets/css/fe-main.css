@@ -1,0 +1,9 @@
+.socmed-sharer-wrapper .social-media-list {
+    display: flex;
+    grid-gap: 4px;
+    margin: 0;
+}
+
+.socmed-sharer-wrapper .social-media-list a{
+    cursor: pointer;
+}

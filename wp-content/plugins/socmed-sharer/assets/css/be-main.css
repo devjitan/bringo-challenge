@@ -1,0 +1,80 @@
+.social-media-container h2 {
+    margin: 30px 0 30px;
+    font-size: 30px;
+}
+
+.social-media-container .updated {
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+
+.social-media-container .sm-form {
+    margin-bottom: 20px !important;
+}
+
+.social-media-container .sm-form tr {
+    margin: 10px 0;
+}
+
+
+.social-media-container .sm-form th {
+    text-align: left;
+    padding-right: 20px;
+    margin: 10px 0;
+    display: block;
+}
+
+.social-media-container .sm-form .social-media-list {
+    display: flex;
+    grid-gap: 2px;
+    margin: 0;
+}
+
+.social-media-container .sm-form .social-media-list li {
+    margin: 0;
+}
+
+.social-media-container .sm-form .social-media-list li img {
+    display: block;
+}
+
+.social-media-container .sm-form .social-media-list li label {
+    position: relative;
+    display: block;
+    padding: 5px;
+}
+
+.social-media-container .sm-form .social-media-list li.cursor-pointer label {
+    cursor: pointer;
+}
+
+.social-media-container .sm-form .social-media-list li input {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    border: 0 !important;
+    position: absolute;
+    outline: none !important;
+    visibility: hidden;
+}
+
+.social-media-container .sm-form .social-media-list li input:checked+label {
+    background-color: #b5b5b5;
+}
+
+
+.social-media-container .sm-form button {
+    background: #595959;
+    border: 0;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.social-media-container .sm-form button:hover {
+    background: #474747;
+}
