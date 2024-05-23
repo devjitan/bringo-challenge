@@ -1,0 +1,43 @@
+
+
+/* Expiration Date */
+#id_post_expiration label{
+    margin-bottom: 4px;
+    display: block;
+}
+#id_post_expiration .expiration-date{
+    margin-bottom: 8px;
+    display: block;
+}
+#id_post_expiration .enable-expiration{
+    margin-top: 15px;
+    display: block;
+}
+#id_post_expiration .expiration-date > div{
+    width: 32%;
+    display: inline-block;
+    position: relative;
+}
+#id_post_expiration .expiration-date > div input, #id_post_expiration .expiration-date > div select{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    height: 34px;
+    padding: 5px;
+}
+#id_post_expiration .expiration-date > div input{
+    height: 34px;
+}
+#id_post_expiration .expiration-date > div select{
+    width: 97%;
+}
+
+/* If in Gutenberg */
+.components-panel  #id_post_expiration .expiration-date > div select{
+    padding: 0px;
+}
+.components-panel #id_post_expiration .expiration-date > div input{
+    height: 36px;
+}
+

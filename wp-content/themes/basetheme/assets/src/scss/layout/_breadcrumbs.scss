@@ -1,0 +1,14 @@
+.breadcrumbs-container {
+    @apply py-8 md:py-[50px];
+
+    .breadcrumbs-list {
+        @apply flex gap-[4px] font-primary;
+
+
+        li {
+            &.active {
+                @apply text-pale-aupe font-bold;
+            }
+        }
+    }
+}

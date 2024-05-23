@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'common/variables/colors';
+@import 'common/variables/fonts';
+@import 'common/variables/icons';
+
+
+@import 'common/fonts';
+
+@import 'common/reset';
+@import 'common/base';
+@import 'common/mixins';
+@import 'common/media';
+
+@import 'common/typesettings';
+
+@import 'common/globals';
+@import 'common/form';
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/breadcrumbs';
+@import 'layout/woocommerce';

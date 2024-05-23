@@ -1,0 +1,2 @@
+Copy the .json file on this folder into "acf-json" folder located on the root of the theme folder.
+That will enable the the ACF fields for this block to be synced on the Custom Fields wp-admin Field Groups.

@@ -1,0 +1,29 @@
+@mixin on($media) {
+    @if $media == edge {
+        @media all and (max-width : 1570px) { @content; } 
+    } @else if $media == large-display {
+        @media all and (max-width : 1366px) { @content; }
+    } @else if $media == small-desktop {
+        @media all and (max-width : 1280px) { @content; }
+    } @else if $media == xs-desktop {
+        @media all and (max-width : 1204px) { @content; }
+    } @else if $media == xl-tablet {
+        @media all and (max-width : 1128px) { @content; }
+    } @else if $media == large-tablet {
+        @media all and (max-width : 1024px) { @content; }
+    } @else if $media == medium-tablet {
+        @media all and (max-width : 820px) { @content; }
+    } @else if $media == tablet {
+        @media all and (max-width : 768px) { @content; }
+    } @else if $media == mobile {
+        @media all and (max-width : 620px) { @content; }
+    } @else if $media == md-mobile {
+        @media all and (max-width : 420px) { @content; }
+    } @else if $media == small-mobile {
+        @media all and (max-width : 375px) { @content; }
+	} @else if $media == smallest-mobile {
+        @media all and (max-width : 340px) { @content; }
+    } @else {
+        @media all and (max-width : $media) { @content; }
+    }
+}
